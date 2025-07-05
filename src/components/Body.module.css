@@ -1,0 +1,40 @@
+.body {
+  height: 100vh;
+  background-image: url("./assets/showroom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.body > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10vh;
+  text-shadow: 3px 3px black;
+  color: rgb(204,204,204);
+  margin-top: -2px;
+}
+
+.body > h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vh;
+  text-shadow: 1px 2px black;
+  color: rgb(204,204,204);
+  margin-top: -40px; 
+  margin-bottom: 34px;
+  background-color: #0f0c1f8d;
+  padding: 4px 20px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
