@@ -3,20 +3,6 @@
 #content {
   margin-top: -250px;
 }
-.test-ride-form {
-  width: 80vw;
-  height: 15vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-  margin-top: 13.5rem;
-  margin-left: 3rem;
-  background-color: #0f0c1f8d;
-  padding: 20px 0px;
-  border-radius: 20px;
-  flex-direction: row;
-}
 
 #input-wrapper{
   display: flex;
@@ -29,17 +15,6 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
-
-.test-ride-form input,
-.test-ride-form button {
-  width: 10rem;
-  height: 1.6rem;
-}
-
-.test-ride-form select {
-  width: 10rem;
-  height: 1.6rem;
 }
 
 input::placeholder{
