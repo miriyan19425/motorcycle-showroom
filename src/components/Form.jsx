@@ -1,6 +1,8 @@
+import styles from './Form.module.css';
+
 function Form(){
     return (
-            <form className="test-ride-form">
+            <form className={styles.testRideForm}>
           <div>
             <label htmlFor="colors">Choose a color:</label>
             <select id="colors" name="colors">
