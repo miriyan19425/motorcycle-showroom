@@ -1,11 +1,10 @@
-import {useState} from 'react';
-import styles from './Form.module.css';
-
-function Form(){
+function TestRideForm(){
     return (
-            <form className={styles.testRideForm}>
+        <main id="content">
+      <div className="form-container">
+        <form className="test-ride-form">
           <div>
-            <label htmlFor="colors">Choose a color:</label>
+            <label for="colors">Choose a color:</label>
             <select id="colors" name="colors">
               <option value="" disabled selected>Color</option>
               <option value="Red">Red</option>
@@ -15,7 +14,7 @@ function Form(){
             </select>
           </div>
           <div>
-            <label htmlFor="motorcycles">Choose a Model:</label>
+            <label for="motorcycles">Choose a Model:</label>
             <select id="motorcycles" name="motorcycles">
               <option value="" disabled selected>Model</option>
               <option value="Ducati Panigale V4">Ducati Panigale V4</option>
@@ -27,20 +26,24 @@ function Form(){
             </select>
           </div>
           <div>
-            <label htmlFor="datetime">Choose a date and time:</label>
+            <label for="datetime">Choose a date and time:</label>
             <input type="datetime-local" id="datetime" name="datetime" />
           </div>
           <div>
-            <label htmlFor="full-name">Your Name</label>
+            <label for="full-name">Your Name</label>
             <input
               type="text" id="full-name" placeholder="Full Name" name="full-name"/>
           </div>
           <div>
-            <label htmlFor="emai;">Your Email</label>
+            <label for="emai;">Your Email</label>
             <input type="email" id="email" name="email" placeholder="Email" />
           </div>
         </form>
+        <button id="test-ride-btn"></button>
+    </div>
+    </main>
     );
+
 }
 
-export default Form;
+export default TestRideForm;
