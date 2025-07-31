@@ -1,18 +1,18 @@
 function TestRideForm(){
     return (
         <main id="content">
-      <div className="form-container">
-        <form className="test-ride-form">
-          <div>
-            <label for="colors">Choose a color:</label>
-            <select id="colors" name="colors">
-              <option value="" disabled selected>Color</option>
-              <option value="Red">Red</option>
-              <option value="Blue">Blue</option>
-              <option value="Green">Green</option>
-              <option value="Yellow">Yellow</option>
-            </select>
-          </div>
+            <div className="form-container">
+                <form className="test-ride-form">
+                    <div>
+                        <label for="colors">Choose a color:</label>
+                        <select id="colors" name="colors">
+                            <option value="" disabled selected>Color</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Green">Green</option>
+                            <option value="Yellow">Yellow</option>
+                        </select>
+                      </div>
           <div>
             <label for="motorcycles">Choose a Model:</label>
             <select id="motorcycles" name="motorcycles">
