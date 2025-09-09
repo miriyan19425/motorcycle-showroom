@@ -1,5 +1,7 @@
 import {useState} from 'react';
 
+const colors = ["Color", "Red", "Blue", "Green", "Yellow"];
+
 function TestRideForm(){
     return (
         <main id="content">
