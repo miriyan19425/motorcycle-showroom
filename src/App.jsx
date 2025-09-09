@@ -1,6 +1,7 @@
 import {useState} from 'react';
 
 import TestRideForm from "./components/TestRideForm";
+import TestRidePreview from "./components/TestRidePreview";
 
 function App() {
    return (
