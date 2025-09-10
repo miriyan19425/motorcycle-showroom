@@ -1,6 +1,8 @@
 import {useState} from 'react';
 
 const colors = ["Color", "Red", "Blue", "Green", "Yellow"];
+const model = ["Model", "Ducati Panigale V4", "BMW HP4 Race", "Kawasaki Ninja H2R", 
+               "MV Agusta F4 CC", "Harley-Davidson CVO Limited", "Confederate FA-13 Combat Bomber"];
 
 function TestRideForm(){
     return (
