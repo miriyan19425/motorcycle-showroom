@@ -4,6 +4,8 @@ import TestRideForm from "./components/TestRideForm";
 import TestRidePreview from "./components/TestRidePreview";
 
 function App() {
+   const [testRideData, setTestRideData] = useState({color: "Color", model: "Model", dateTime: "", name: "", email: ""});
+   
    return (
       <div className="body">
          <h1>Motorcycle Showroom</h1>
