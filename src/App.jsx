@@ -5,6 +5,8 @@ import TestRidePreview from "./components/TestRidePreview";
 
 function App() {
    const [testRideData, setTestRideData] = useState({color: "Color", model: "Model", dateTime: "", name: "", email: ""});
+
+   function getTestRideData(d) { setTestRideData(d); }
    
    return (
       <div className="body">
