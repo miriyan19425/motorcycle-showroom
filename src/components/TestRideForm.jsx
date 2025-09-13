@@ -7,6 +7,7 @@ const model = ["Model", "Ducati Panigale V4", "BMW HP4 Race", "Kawasaki Ninja H2
 function TestRideForm(){
   const [color, setColor] = useState('Color');
   const [model, setModel] = useState('Model');
+  const [dateTime, setDateTime] = useState("");
   
     return (
         <main id="content">
