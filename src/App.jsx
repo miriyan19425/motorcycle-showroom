@@ -12,7 +12,7 @@ function App() {
       <div className="body">
          <h1>Motorcycle Showroom</h1>
          <h4>Reserve a Test Ride</h4>
-         <TestRideForm />
+         <TestRideForm bookTestRide={getTestRideData} />
          <div className="data-view">
             <div className="preview">
                <ul id="preview-list"></ul>
