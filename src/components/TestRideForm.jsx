@@ -8,6 +8,7 @@ function TestRideForm({bookTestRide}){
   const [color, setColor] = useState('Color');
   const [model, setModel] = useState('Model');
   const [dateTime, setDateTime] = useState("");
+  const [name, setName] = useState("");
   
     return (
         <main id="content">
