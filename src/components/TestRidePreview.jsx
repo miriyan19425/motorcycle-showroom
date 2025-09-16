@@ -3,7 +3,7 @@ function TestRidePreview({testRideInput}){
         <div className="preview">
             {
                 (
-                    
+                    testRideInput.color === 'Color'
                 ) || 
                 <ul id="preview-list">
                 
