@@ -9,6 +9,7 @@ function TestRideForm({bookTestRide}){
   const [model, setModel] = useState('Model');
   const [dateTime, setDateTime] = useState("");
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   
     return (
         <main id="content">
