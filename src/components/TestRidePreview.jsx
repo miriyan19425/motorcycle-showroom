@@ -3,7 +3,8 @@ function TestRidePreview({testRideInput}){
         <div className="preview">
             {
                 (
-                    testRideInput.color === 'Color'
+                    testRideInput.color === 'Color' &&
+                    testRideInput.model === 'Model'
                 ) || 
                 <ul id="preview-list">
                 
