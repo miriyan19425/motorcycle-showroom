@@ -10,6 +10,8 @@ function TestRideForm({bookTestRide}){
   const [dateTime, setDateTime] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+
+  function handleSubmit(e){}
   
     return (
         <main id="content">
