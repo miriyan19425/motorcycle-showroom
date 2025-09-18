@@ -13,6 +13,8 @@ function TestRideForm({bookTestRide}){
 
   function handleSubmit(e){
     e.preventDefault();
+
+    if (color === 'Color' || model === 'Model' || !dateTime || !name || !email) return;
   }
   
     return (
