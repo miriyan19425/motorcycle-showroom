@@ -5,7 +5,8 @@ function TestRidePreview({testRideInput}){
                 (
                     testRideInput.color === 'Color' &&
                     testRideInput.model === 'Model' &&
-                    testRideInput.dateTime === ""
+                    testRideInput.dateTime === "" &&
+                    testRideInput.name === ""
                 ) || 
                 <ul id="preview-list">
                 
