@@ -11,7 +11,9 @@ function TestRideForm({bookTestRide}){
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
-  function handleSubmit(e){}
+  function handleSubmit(e){
+    e.preventDefault();
+  }
   
     return (
         <main id="content">
