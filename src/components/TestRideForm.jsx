@@ -17,6 +17,9 @@ function TestRideForm({bookTestRide}){
     if (color === 'Color' || model === 'Model' || !dateTime || !name || !email) return;
 
     const data = {color, model, dateTime, name, email};
+
+    bookTestRide(data);
+    
   }
   
     return (
