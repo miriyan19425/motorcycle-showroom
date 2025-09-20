@@ -10,7 +10,14 @@ function TestRidePreview({testRideInput}){
                     testRideInput.email === ""
                 ) || 
                 <ul id="preview-list">
-                
+                    <li>
+                        <article>
+                        
+                        </article>
+                        <div>
+                        
+                        </div>
+                    </li>
                 </ul>
             } 
         </div>
