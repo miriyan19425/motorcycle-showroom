@@ -12,7 +12,8 @@ function TestRidePreview({testRideInput}){
                 <ul id="preview-list">
                     <li>
                         <article>
-                        
+                            <p>Color: {testRideInput.color}</p>
+                            
                         </article>
                         <div>
                         
