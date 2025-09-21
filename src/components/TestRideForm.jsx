@@ -19,6 +19,8 @@ function TestRideForm({bookTestRide}){
     const data = {color, model, dateTime, name, email};
 
     bookTestRide(data);
+
+    setColor("Color");
     
   }
   
