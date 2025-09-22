@@ -13,7 +13,7 @@ function TestRidePreview({testRideInput}){
                     <li>
                         <article>
                             <p>Color: {testRideInput.color}</p>
-                            
+                            <p>Model: {testRideInput.model}</p>
                         </article>
                         <div>
                         
