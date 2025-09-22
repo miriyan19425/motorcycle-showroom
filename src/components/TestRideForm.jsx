@@ -21,7 +21,7 @@ function TestRideForm({bookTestRide}){
     bookTestRide(data);
 
     setColor("Color");
-    
+    setModel("Model");
   }
   
     return (
