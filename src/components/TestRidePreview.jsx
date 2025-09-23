@@ -14,6 +14,8 @@ function TestRidePreview({testRideInput}){
                         <article>
                             <p>Color: {testRideInput.color}</p>
                             <p>Model: {testRideInput.model}</p>
+                            <p>For: {testRideInput.name}</p>
+                            
                         </article>
                         <div>
                         
