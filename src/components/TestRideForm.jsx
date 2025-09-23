@@ -22,6 +22,7 @@ function TestRideForm({bookTestRide}){
 
     setColor("Color");
     setModel("Model");
+    setDateTime("");
   }
   
     return (
