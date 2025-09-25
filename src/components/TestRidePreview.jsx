@@ -16,7 +16,7 @@ function TestRidePreview({testRideInput}){
                             <p>Model: {testRideInput.model}</p>
                             <p>For: {testRideInput.name}</p>
                             <p>Contact: {testRideInput.email}</p>
-                            
+                            <p>Test Ride On: {testRideInput.dateTime}</p>
                         </article>
                         <div>
                         
