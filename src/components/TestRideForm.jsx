@@ -24,7 +24,7 @@ function TestRideForm({bookTestRide}){
     setModel("Model");
     setDateTime("");
     setName("");
-    
+    setEmail("");
   }
   
     return (
