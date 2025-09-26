@@ -27,10 +27,10 @@ function TestRideForm({bookTestRide}){
     setEmail("");
   }
   
-    return (
-        <main id="content">
-            <div className="form-container">
-                <form className="test-ride-form">
+  return (
+    <main id="content">
+      <div className="form-container">
+        <form className="test-ride-form" onSubmit={handleSubmit} >
                     <div>
                         <label for="colors">Choose a color:</label>
                         <select id="colors" name="colors">
@@ -69,7 +69,7 @@ function TestRideForm({bookTestRide}){
         </form>
         <button id="test-ride-btn"></button>
     </div>
-    </main>
+  </main>
     );
 
 }
