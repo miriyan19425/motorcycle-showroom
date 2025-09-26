@@ -18,7 +18,7 @@ function TestRidePreview({testRideInput}){
                             <p>Contact: {testRideInput.email}</p>
                             <p>Test Ride On: {testRideInput.dateTime}</p>
                         </article>
-                        <div>
+                        <div className="btn-container">
                         
                         </div>
                     </li>
