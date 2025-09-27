@@ -32,7 +32,7 @@ function TestRideForm({bookTestRide}){
       <div className="form-container">
         <form className="test-ride-form" onSubmit={handleSubmit} >
                     <div>
-                        <label for="colors">Choose a color:</label>
+                        <label htmlFor="colors">Choose a color:</label>
                         <select id="colors" name="colors">
                             <option value="" disabled selected>Color</option>
                             <option value="Red">Red</option>
