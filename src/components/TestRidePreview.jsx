@@ -19,7 +19,7 @@ function TestRidePreview({testRideInput}){
                             <p>Test Ride On: {testRideInput.dateTime}</p>
                         </article>
                         <div className="btn-container">
-                        
+                            <button className="edit-btn">Edit</button>
                         </div>
                     </li>
                 </ul>
