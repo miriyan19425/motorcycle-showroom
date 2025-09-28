@@ -20,6 +20,7 @@ function TestRidePreview({testRideInput}){
                         </article>
                         <div className="btn-container">
                             <button className="edit-btn">Edit</button>
+                            <button className="next-btn">Next</button>
                         </div>
                     </li>
                 </ul>
