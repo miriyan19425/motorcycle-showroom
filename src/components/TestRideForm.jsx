@@ -31,16 +31,12 @@ function TestRideForm({bookTestRide}){
     <main id="content">
       <div className="form-container">
         <form className="test-ride-form" onSubmit={handleSubmit} >
-                    <div>
-                        <label htmlFor="colors">Choose a color:</label>
-                        <select id="colors" name="colors">
-                            <option value="" disabled selected>Color</option>
-                            <option value="Red">Red</option>
-                            <option value="Blue">Blue</option>
-                            <option value="Green">Green</option>
-                            <option value="Yellow">Yellow</option>
-                        </select>
-                      </div>
+          <div>
+            <label htmlFor="colors">Choose a color:</label>
+            <select id="colors" value={color} onChange={(e) => setColor(e.target.value)}>
+              {colors.map( (col, ind) => <option key={ind} value={col} disabled={ind === 0}>{col}</option> )}
+            </select>             
+          </div>
           <div>
             <label for="motorcycles">Choose a Model:</label>
             <select id="motorcycles" name="motorcycles">
