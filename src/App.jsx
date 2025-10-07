@@ -14,9 +14,7 @@ function App() {
          <h4>Reserve a Test Ride</h4>
          <TestRideForm bookTestRide={getTestRideData} />
          <div className="data-view">
-            <div className="preview">
-               <ul id="preview-list"></ul>
-            </div>
+            <TestRidePreview testRideInput={testRideData}/>
             <div className="complete">
                <ul id="complete-list"></ul>
             </div>
