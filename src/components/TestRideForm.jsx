@@ -38,15 +38,9 @@ function TestRideForm({bookTestRide}){
             </select>             
           </div>
           <div>
-            <label for="motorcycles">Choose a Model:</label>
-            <select id="motorcycles" name="motorcycles">
-              <option value="" disabled selected>Model</option>
-              <option value="Ducati Panigale V4">Ducati Panigale V4</option>
-              <option value="BMW HP4 Race">BMW HP4 Race</option>
-              <option value="Kawasaki Ninja H2R">Kawasaki Ninja H2R</option>
-              <option value="MV Agusta F4 CC">MV Agusta F4 CC</option>
-              <option value="Harley-Davidson CVO Limited">Harley-Davidson CVO Limited</option>
-              <option value="Confederate FA-13 Combat Bomber">Confederate FA-13 Combat Bomber</option>
+            <label htmlFor="models">Choose a Model:</label>
+            <select id="models" value={model} onChange={(e) => setModel(e.target.value)}>
+              {models.map( (mod, ind) => <option key={ind} value={mod} disabled={ind === 0}>{mod}</option> )}
             </select>
           </div>
           <div>
