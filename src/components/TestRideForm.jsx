@@ -44,16 +44,15 @@ function TestRideForm({bookTestRide}){
             </select>
           </div>
           <div>
-            <label for="datetime">Choose a date and time:</label>
+            <label htmlFor="datetime">Choose a date and time:</label>
             <input type="datetime-local" id="datetime" name="datetime" />
           </div>
           <div>
-            <label for="full-name">Your Name</label>
-            <input
-              type="text" id="full-name" placeholder="Full Name" name="full-name"/>
+            <label htmlFor="full-name">Your Name</label>
+            <input type="text" id="full-name" placeholder="Full Name" name="full-name"/>
           </div>
           <div>
-            <label for="emai;">Your Email</label>
+            <label htmlFor="emai">Your Email</label>
             <input type="email" id="email" name="email" placeholder="Email" />
           </div>
         </form>
